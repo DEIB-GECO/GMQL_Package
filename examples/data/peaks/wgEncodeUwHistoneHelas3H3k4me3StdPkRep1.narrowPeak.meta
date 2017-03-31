@@ -1,0 +1,91 @@
+antibody	H3K4me3
+antibody_antibodyDescription	Rabbit polyclonal. Antibody Target: H3K4me3
+antibody_lab	Bernstein, Hardison
+antibody_label	H3K4me3 (07-473)
+antibody_lots	498616 331024(ab8580)  R0903B0054(07-473)
+antibody_orderUrl	http://www.abcam.com/index.html?datasheet=8580; http://www.millipore.com/catalogue/item/07-473
+antibody_tag	H3K04ME3
+antibody_target	H3K4me3
+antibody_targetDescription	Histone H3 (tri methyl K4). Marks promoters that are active or poised to be activated.
+antibody_targetId	GeneCard:HIST2H3C
+antibody_targetUrl	http://www.genecards.org/cgi-bin/carddisp.pl?gene=HIST2H3C
+antibody_type	Antibody
+antibody_validation	Human_-_H3K4me3(Dot_blot):human_H3K4me3_validation_Bernstein.pdf Mouse_-_H3K4me3_(ab8580)(Dot_blot):mouse_H3K4me3_ab8580_validation_Hardison.pdf Mouse_-_H3K4me3_(07-473)(Dot_blot):mouse_H3K4me3_07-473_validation_Hardison.pdf
+antibody_vendorId	ab8580; 07-473
+antibody_vendorName	1)abcam; 2)Millipore
+cell	HeLa-S3
+cell_color	0,119,158
+cell_description	cervical carcinoma
+cell_karyotype	cancer
+cell_lineage	ectoderm
+cell_orderUrl	http://www.atcc.org/ATCCAdvancedCatalogSearch/ProductDetails/tabid/452/Default.aspx?ATCCNum=CCL-2.2&Template=cellBiology
+cell_organism	human
+cell_protocol	ENCODE:HeLa-S3_protocol.pdf Crawford:HeLa-S3_IFN_Crawford_protocol.pdf
+cell_sex	F
+cell_tag	HELAS3
+cell_termId	BTO:0000568
+cell_termUrl	http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=BTO&termId=BTO%3A0000568
+cell_tier	2
+cell_tissue	cervix
+cell_type	Cell Line
+cell_vendorId	CCL-2.2
+cell_vendorName	ATCC
+composite	wgEncodeUwHistone
+control	std
+control_description	Standard input signal for most experiments.
+control_label	Standard Control
+control_tag	STD
+control_type	control
+controlId	wgEncodeEH000469
+dataType	ChipSeq
+dataType_dataGroup	TFBS & Histones
+dataType_description	Chromatin IP Sequencing
+dataType_label	ChIP-seq
+dataType_tag	CHIPSEQ
+dataType_type	dataType
+dataVersion	ENCODE June 2010 Freeze
+dateResubmitted	2010-giu-14
+dateSubmitted	2009-ott-13
+dateUnrestricted	2010-lug-12
+dccAccession	wgEncodeEH000423
+geoSampleAccession	GSM945201
+grant	Stam
+grant_description	Stamatoyannopoulous
+grant_grantInst	University of Washington
+grant_label	Stamatoyannopoulous
+grant_projectName	UW
+grant_tag	STAM
+grant_type	grant
+ID	1788
+lab	UW
+lab_description	Stamatoyannopoulous - University of Washington
+lab_grantPi	Stam
+lab_label	Stamatoyannopoulous - UW
+lab_labInst	University of Washington
+lab_labPi	Stam
+lab_labPiFull	John Stamatoyannopoulous
+lab_organism	human
+lab_tag	UW
+lab_type	lab
+labExpId	DS11555
+labVersion	lmax-v1.0
+md5sum	e17090e9d3fe1f1310cf6addba5ff6e7
+origAssembly	hg18
+project	wgEncode
+replicate	1
+setType	exp
+size	557K
+subId	1425
+tableName	wgEncodeUwHistoneHelas3H3k4me3StdPkRep1
+treatment	None
+treatment_description	No special treatment or protocol applies
+treatment_label	No treatment or prot
+treatment_tag	NONE
+treatment_type	control
+type	narrowPeak
+url	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeUwHistone/wgEncodeUwHistoneHelas3H3k4me3StdPkRep1.narrowPeak.gz
+view	Peaks
+view_description	Regions of enriched signal in experiment
+view_label	Peaks
+view_tag	PKS
+view_type	view

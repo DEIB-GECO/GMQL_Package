@@ -1,0 +1,18 @@
+# 
+# Example 1: Find ChIP-seq peaks in promoter regions
+# --------------------------------------------------
+# "In each enriched region (often called 'peak') sample from ENCODE human ChIP-seq experiments, 
+# find how many peaks co-occur in each promoter region".
+#
+
+HM_TF = SELECT(dataType == 'ChipSeq' AND view == 'Peaks') HG19_PEAK;
+
+TSS = SELECT(ann_type == 'TSS' AND provider == 'UCSC') HG19_ANN;
+
+PROM_P = PROJECT( region_update: start AS left - 2000, stop AS right + 1000) TSS;
+
+PROM = SELECT (region: score >= 1000) PROM_P;
+
+PROM_HM_TF = MAP() PROM HM_TF;
+
+MATERIALIZE PROM_HM_TF INTO PROM_HM_TF;

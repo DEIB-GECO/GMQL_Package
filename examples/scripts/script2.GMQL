@@ -1,0 +1,24 @@
+# 
+# Example 2: Find Distal Bindings in Transcription Regulatory Regions
+# --------------------------------------------------------------
+# "Find all enriched regions (peaks) in CTCF transcription factor (TF) ChIP-seq samples from different human cell lines, 
+# which are the nearest regions farther than 100 kb from a transcription start site (TSS). For the same cell lines, 
+# find also all peaks for the H3K4me1 histone modifications (HM) which are also the nearest regions farther than 100 kb 
+# from a TSS. Then, out of the TF and HM peaks found in the same cell line, return all TF peaks that overlap with both 
+# HM peaks and known enhancer (EN) regions".
+#
+
+
+TF = SELECT(dataType == 'ChipSeq' AND view == 'Peaks' AND antibody_target == 'CTCF') HG19_PEAK;
+HM = SELECT(dataType == 'ChipSeq' AND view == 'Peaks' AND antibody_target == 'H3K4me1') HG19_PEAK;
+
+TSS = SELECT(ann_type == 'TSS' AND provider == 'UCSC') HG19_ANN;
+EN = SELECT(ann_type == 'enhancer' AND provider == 'UCSC') HG19_ANN;
+
+TF1 = JOIN( distance > 100000, minDistance(1); output:right) TSS TF;
+HM1 = JOIN( distance > 100000, minDistance(1); output:right) TSS HM;
+HM2 = JOIN(distance < 0; output:int) EN HM1;
+
+TF_res = JOIN( distance < 0 ; output:right ;JOINBY:cell) HM2 TF1;
+
+MATERIALIZE TF_res into TF_res;

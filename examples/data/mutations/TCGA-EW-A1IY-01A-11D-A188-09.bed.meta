@@ -1,0 +1,67 @@
+age_at_diagnosis	38
+ajcc_metastasis_pathologic_pm	MX
+ajcc_nodes_pathologic_pn	N0
+ajcc_pathologic_tumor_stage	Stage I
+ajcc_staging_edition	6th
+ajcc_tumor_pathologic_pt	T1c
+anatomic_neoplasm_subdivision	Right Upper Inner Quadrant
+axillary_staging_method	Other (specify)
+axillary_staging_method_other	sentinel LN and one non sentinel LN
+bcr_patient_uuid	5ff12cbe-a3e0-4ce6-8452-12b984a1baaf
+bcr_sample_uuid	d728c743-10a6-4ac4-8725-61c0d2980057
+birth_days_to	-14122
+center	genome.wustl.edu
+data_type	DNASeq
+days_to_collection	590
+days_to_initial_pathologic_diagnosis	0
+er_ihc_score	3+
+er_positivity_scale_used	3 Point Scale
+er_status_by_ihc	Positive
+er_status_ihc_Percent_Positive	90-99%
+ethnicity	NOT HISPANIC OR LATINO
+form_completion_date	2011-5-10
+gender	FEMALE
+her2_ihc_percent_positive	<10%
+her2_status_by_ihc	Negative
+histological_type	Infiltrating Ductal Carcinoma
+history_neoadjuvant_treatment	No
+history_other_malignancy	No
+icd_10	C50.9
+icd_o_3_histology	8500/3
+icd_o_3_site	C50.9
+id	TCGA-EW-A1IY-01A-11D-A188-09
+informed_consent_verified	YES
+initial_pathologic_dx_year	2009
+initial_weight	50
+last_contact_days_to	258
+lymph_nodes_examined	6
+lymph_nodes_examined_count	YES
+lymph_nodes_examined_he_count	0
+lymph_nodes_examined_ihc_count	0
+margin_status	Negative
+menopause_status	Pre (<6 months since LMP AND no prior bilateral ovariectomy AND not on estrogen replacement)
+metastatic_tumor_indicator	NO
+method_initial_path_dx	Core needle biopsy
+micromet_detection_by_ihc	YES
+ncbi_build	37
+oct_embedded	true
+pathology_report_uuid	7C003A4F-DC30-43D0-AC61-ACE6BA118BEE
+patient_id	A1IY
+pr_positivity_ihc_intensity_score	3+
+pr_positivity_scale_used	3 Point Scale
+pr_status_by_ihc	Positive
+pr_status_ihc_percent_positive	90-99%
+prospective_collection	NO
+race	ASIAN
+retrospective_collection	YES
+sample_type	Primary Tumor
+sample_type_id	01
+sequence_source	WXS
+sequencer	Illumina GAIIx
+surgical_procedure_first	Lumpectomy
+tissue_source_site	EW
+tumor_sample_uuid	01d3fddf-b447-4925-a5cb-c5fd70c97278
+tumor_status	TUMOR FREE
+tumor_tissue_site	Breast
+vial_number	A
+vital_status	Alive

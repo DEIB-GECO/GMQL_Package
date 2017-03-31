@@ -1,0 +1,21 @@
+# 
+# Example 3: Associating Transcriptomics and Epigenomics 
+# ------------------------------------------------------
+# "In RNA-seq experiments of human cancer cell line HeLa-S3, find the average expression of each exon. 
+# Then, in ChIP-seq experiments of the same cell line, find the average signal of H3K4me3 histone modifications 
+# within each exon".
+#
+
+Exon = SELECT(ann_type == 'exons' AND provider == 'RefSeq') HG19_ANN;
+HM = SELECT(dataType == 'ChipSeq' AND view == 'Peaks' AND cell == 'HeLa-S3' AND antibody_target == 'H3K4me3') HG19_PEAK;
+RNA = SELECT(dataType == 'RnaSeq' AND view == 'ExonsDeNovo' AND cell == 'HeLa-S3') HG19_RNA;
+
+RNA2_P = PROJECT( region_update: signal AS RPKM1 / 2 + RPKM2 / 2) RNA;
+
+RNA2 = SELECT(region: iIDR < 0.05) RNA2_P;
+
+Exp = UNION() RNA2 HM;
+
+Genome_space = MAP(signal_avg AS AVG(signal)) Exon Exp;
+
+MATERIALIZE Genome_space INTO  Genome_space;

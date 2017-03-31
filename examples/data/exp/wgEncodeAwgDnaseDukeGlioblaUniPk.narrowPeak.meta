@@ -1,0 +1,52 @@
+composite	wgEncodeAwgDnaseUniPk
+cell	Gliobla
+cell_lineage	ectoderm
+cell_vendorId	D54
+cell_protocol	Crawford:D54_Crawford_protocol.pdf
+cell_description	glioblastoma, these cells (aka H54 and D54) come from a surgical resection from a patient with glioblastoma multiforme (WHO Grade IV). D54 is a commonly studied glioblastoma cell line (Bao et al., 2006) that has been thoroughly described by S Bigner (1981). (PMID: 7252524)
+cell_organism	human
+cell_orderUrl	http://www.cancer.duke.edu/btc/modules/facultystaff1/index.php?id=85
+cell_tissue	brain
+cell_sex	U
+cell_tag	GLIOBLA
+cell_termUrl	http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=BTO&termId=BTO%3A0000527
+cell_tier	3
+cell_karyotype	cancer
+cell_type	Cell Line
+cell_vendorName	Dr. Darrell Bigner at Duke University Medical Center
+cell_termId	BTO:0000527
+dataVersion	ENCODE Jan 2011 Freeze
+url	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeAwgDnaseUniform/wgEncodeAwgDnaseDukeGlioblaUniPk.narrowPeak.gz
+ID	7
+md5sum	0c070d7cc4ce55c9c83f12a1b5ec9b64
+tableName	wgEncodeAwgDnaseDukeGlioblaUniPk
+lab	Duke
+lab_description	Crawford - Duke University
+lab_labPi	Crawford
+lab_grantPi	Crawford
+lab_organism	human
+lab_labInst	Duke University
+lab_label	Crawford - Duke University
+lab_tag	DUKE
+lab_labPiFull	Greg Crawford
+lab_type	lab
+project	wgEncode
+dataType	DnaseSeq
+dataType_description	DNaseI HS Sequencing
+dataType_label	DNase-seq
+dataType_dataGroup	Open Chromatin
+dataType_tag	DNASESEQ
+dataType_type	dataType
+dccAccession	wgEncodeEH001100
+treatment	None
+treatment_tag	NONE
+treatment_type	control
+treatment_description	No special treatment or protocol applies
+treatment_label	No treatment or prot
+size	1.5M
+type	narrowPeak
+view	Peaks
+view_tag	PKS
+view_type	view
+view_description	Regions of enriched signal in experiment
+view_label	Peaks

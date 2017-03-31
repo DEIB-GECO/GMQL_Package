@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+# GMQL repository manager 
+#
+# Author: Abdulrahman Kaitoua
+#
+# email: abdulrahman.kaitoua@polimi.it
+#
+
+cd "$(dirname "$0")"
+
+JAVA_CMD="spark-submit --class it.polimi.genomics.cli.GMQLExecuteCommand --master local[1] --jars ../lib/slf4j-log4j12-1.7.10.jar ../lib/GMQL-Cli-2.0-jar-with-dependencies.jar $@"
+
+$JAVA_CMD

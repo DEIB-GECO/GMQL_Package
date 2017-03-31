@@ -1,0 +1,5 @@
+A = SELECT() ../examples/data/ann/;
+B = SELECT() ../examples/data/exp/;
+S = MAP() A B;
+MATERIALIZE S INTO ../examples/out/SSS/;
+

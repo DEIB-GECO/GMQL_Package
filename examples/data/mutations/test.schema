@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gmqlSchemaCollection name="GLOBAL_SCHEMAS" xmlns="http://genomic.elet.polimi.it/entities">
+	<gmqlSchema type="tab1">
+		<field type="STRING">CHR</field>
+		<field type="LONG">START</field>
+		<field type="LONG">STOP</field> 
+		<field type="STRAND">strand</field>
+		<field type="STRING">Hugo_Symbol</field>
+		<field type="STRING">Entrez_Gene_Id</field>
+		<field type="STRING">Variant_Classification</field>
+		<field type="STRING">Variant_Type</field>
+		<field type="STRING">Reference_Allele</field>
+		<field type="STRING">Tumor_Seq_Allele1</field>
+		<field type="STRING">Tumor_Seq_Allele2</field>
+		<field type="STRING">dbSNP_RS</field>
+		<field type="STRING">Tumor_Sample_Barcode</field>
+		<field type="STRING">Matched_Norm_Sample_Barcode</field>
+		<field type="STRING">Match_Norm_Seq_Allele1</field>
+		<field type="STRING">Match_Norm_Seq_Allele2</field>
+		<field type="STRING">Matched_Norm_Sample_UUID</field>
+	</gmqlSchema>
+</gmqlSchemaCollection>

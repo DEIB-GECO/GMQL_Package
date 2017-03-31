@@ -1,0 +1,51 @@
+composite	wgEncodeAwgDnaseUniPk
+cell	AoSMC
+cell_lineage	mesoderm
+cell_vendorId	CC-2571
+cell_protocol	Crawford:AoSMC_Crawford_protocol.pdf
+cell_description	aortic smooth muscle cells
+cell_organism	human
+cell_orderUrl	http://www.lonza.com/
+cell_tissue	blood vessel
+cell_sex	U
+cell_tag	AOSMC
+cell_termUrl	http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=BTO&termId=BTO%3A0001685
+cell_tier	3
+cell_karyotype	normal
+cell_type	Cell Line
+cell_vendorName	Lonza
+cell_termId	BTO:0001685
+dataVersion	ENCODE Jan 2011 Freeze
+url	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeAwgDnaseUniform/wgEncodeAwgDnaseDukeAosmcUniPk.narrowPeak.gz
+ID	2
+md5sum	957b3477d43cef1c6abd41182b053418
+tableName	wgEncodeAwgDnaseDukeAosmcUniPk
+lab	Duke
+lab_description	Crawford - Duke University
+lab_labPi	Crawford
+lab_grantPi	Crawford
+lab_organism	human
+lab_labInst	Duke University
+lab_label	Crawford - Duke University
+lab_tag	DUKE
+lab_labPiFull	Greg Crawford
+lab_type	lab
+project	wgEncode
+dataType	DnaseSeq
+dataType_description	DNaseI HS Sequencing
+dataType_label	DNase-seq
+dataType_dataGroup	Open Chromatin
+dataType_tag	DNASESEQ
+dataType_type	dataType
+treatment	None
+treatment_tag	NONE
+treatment_type	control
+treatment_description	No special treatment or protocol applies
+treatment_label	No treatment or prot
+size	1.5M
+type	narrowPeak
+view	Peaks
+view_tag	PKS
+view_type	view
+view_description	Regions of enriched signal in experiment
+view_label	Peaks

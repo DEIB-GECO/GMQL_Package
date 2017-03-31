@@ -1,0 +1,4 @@
+A = SELECT() hdfs://127.0.0.1:9000/user/repo/abdo/regions/home/abdo/disk1/ds/ref/;
+B = SELECT() hdfs://127.0.0.1:9000/user/repo/abdo/regions/home/abdo/disk1/ds/exp/;
+S = MAP() A B;
+MATERIALIZE S INTO hdfs://127.0.0.1:9000/user/repo/abdo/regions/SSS/;

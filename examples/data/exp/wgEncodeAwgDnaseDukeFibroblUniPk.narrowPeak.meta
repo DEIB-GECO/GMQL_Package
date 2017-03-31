@@ -1,0 +1,51 @@
+composite	wgEncodeAwgDnaseUniPk
+cell	Fibrobl
+cell_vendorId	AG08470
+cell_protocol	Crawford:fibroblast_Crawford_protocol.pdf
+cell_description	child fibroblast
+cell_organism	human
+cell_orderUrl	http://ccr.coriell.org/Sections/Search/Sample_Detail.aspx?Ref=AG08470&PgId=166
+cell_tissue	skin
+cell_sex	F
+cell_tag	FIBROBL
+cell_termUrl	http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=BTO&termId=BTO%3A0000452
+cell_tier	3
+cell_karyotype	normal
+cell_type	Cell Line
+cell_vendorName	Coriell
+cell_termId	BTO:0000452
+dataVersion	ENCODE Jan 2011 Freeze
+url	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeAwgDnaseUniform/wgEncodeAwgDnaseDukeFibroblUniPk.narrowPeak.gz
+ID	5
+md5sum	4bf374cbbbda675e686c51de627a3d05
+tableName	wgEncodeAwgDnaseDukeFibroblUniPk
+lab	Duke
+lab_description	Crawford - Duke University
+lab_labPi	Crawford
+lab_grantPi	Crawford
+lab_organism	human
+lab_labInst	Duke University
+lab_label	Crawford - Duke University
+lab_tag	DUKE
+lab_labPiFull	Greg Crawford
+lab_type	lab
+project	wgEncode
+dataType	DnaseSeq
+dataType_description	DNaseI HS Sequencing
+dataType_label	DNase-seq
+dataType_dataGroup	Open Chromatin
+dataType_tag	DNASESEQ
+dataType_type	dataType
+dccAccession	wgEncodeEH000583
+treatment	None
+treatment_tag	NONE
+treatment_type	control
+treatment_description	No special treatment or protocol applies
+treatment_label	No treatment or prot
+size	3.5M
+type	narrowPeak
+view	Peaks
+view_tag	PKS
+view_type	view
+view_description	Regions of enriched signal in experiment
+view_label	Peaks

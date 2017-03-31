@@ -1,0 +1,83 @@
+bioRep	011WC,012WC
+cell	HeLa-S3
+cell_color	0,119,158
+cell_description	cervical carcinoma
+cell_karyotype	cancer
+cell_lineage	ectoderm
+cell_orderUrl	http://www.atcc.org/ATCCAdvancedCatalogSearch/ProductDetails/tabid/452/Default.aspx?ATCCNum=CCL-2.2&Template=cellBiology
+cell_organism	human
+cell_protocol	ENCODE:HeLa-S3_protocol.pdf Crawford:HeLa-S3_IFN_Crawford_protocol.pdf
+cell_sex	F
+cell_tag	HELAS3
+cell_termId	BTO:0000568
+cell_termUrl	http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=BTO&termId=BTO%3A0000568
+cell_tier	2
+cell_tissue	cervix
+cell_type	Cell Line
+cell_vendorId	CCL-2.2
+cell_vendorName	ATCC
+composite	wgEncodeCshlLongRnaSeq
+dataType	RnaSeq
+dataType_dataGroup	RNA Profiling
+dataType_description	Sequencing analysis of RNA expression
+dataType_label	RNA-seq
+dataType_tag	RNASEQ
+dataType_type	dataType
+dataVersion	ENCODE Jul 2012 Freeze 
+dateSubmitted	2012-05-30
+dateUnrestricted	2013-03-02
+dccAccession	wgEncodeEH000173
+geoSampleAccession	GSM765402
+grant	Gingeras
+grant_description	Gingeras
+grant_grantInst	Cold Spring Harbor Laboratory
+grant_projectName	Transcriptome
+grant_tag	GINGERAS
+grant_type	grant
+ID	2
+lab	CSHL
+lab_description	Gingeras - Cold Spring Harbor Laboratory
+lab_grantPi	Gingeras
+lab_label	Gingeras - CSHL
+lab_labInst	Cold Spring Harbor Laboratory
+lab_labPi	Gingeras
+lab_labPiFull	Thomas Gingeras
+lab_organism	human
+lab_tag	CSHL
+lab_type	lab
+labExpId	LID16633,LID16634
+labVersion	iIDR
+localization	cell
+localization_description	Whole cell
+localization_label	cell
+localization_tag	CELL
+localization_termId	GO:0005623
+localization_termUrl	http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0005623
+localization_type	localization
+md5sum	539a452f6072c58b71d465aa0c6dbce0
+project	wgEncode
+readType	2x76D
+readType_description	Paired 76 nt directed reads
+readType_tag	R2X76D
+readType_type	readType
+rnaExtract	longPolyA
+rnaExtract_description	Poly(A)- RNA longer than 200 nt
+rnaExtract_label	Long PolyA- RNA
+rnaExtract_tag	PAM
+rnaExtract_type	rnaExtract
+seqPlatform	Illumina_GA2x
+seqPlatform_description	Illumina Genome Analyzer IIx
+seqPlatform_geoPlatformName	Illumina Genome Analyzer II
+seqPlatform_label	Illumina Genome Analyzer IIx
+seqPlatform_tag	ILLUMINAGA2X
+seqPlatform_type	seqPlatform
+size	6.8M
+spikeInPool	Nist14
+subId	7008
+type	gff
+url	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeCshlLongRnaSeq/wgEncodeCshlLongRnaSeqHelas3CellPapExonsDeNovo.gff.gz	
+view	ExonsDeNovo
+view_description	Expression level estimates for Cufflinks exons, derived by summing the expression levels in RPKM for all transcripts containing a given exon
+view_label	ExonsDenovo
+view_tag	EXONSDENOVO
+view_type	view

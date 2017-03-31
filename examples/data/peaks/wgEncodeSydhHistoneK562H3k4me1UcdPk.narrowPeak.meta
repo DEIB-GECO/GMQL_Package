@@ -1,0 +1,86 @@
+antibody	H3K4me1
+antibody_antibodyDescription	Rabbit polyclonal affinity purified. Antibody Target: H3K4me1
+antibody_lab	Bernstein, Ren, Hardison
+antibody_label	H3K4me1 (ab8895)
+antibody_lots	383111 720417
+antibody_orderUrl	http://www.abcam.com/index.html?datasheet=8895
+antibody_tag	H3K04ME1
+antibody_target	H3K4me1
+antibody_targetDescription	Histone H3 (mono methyl K4). Is associated with enhancers, and downstream of transcription starts.
+antibody_targetId	GeneCard:HIST2H3C
+antibody_targetUrl	http://www.genecards.org/cgi-bin/carddisp.pl?gene=HIST2H3C
+antibody_type	Antibody
+antibody_validation	Human_-_H3K4me1(ab8895)(Dot_blot):human_H3K4me1_ab8895_validation_Bernstein.pdf Mouse_-_H3K4me1(ab8895)(Dot_blot,Western_blot):mouse_H3K4me1_ab8895_validation_Ren.pdf Mouse_-_H3K4me1(ab8895)(Dot_blot):mouse_H3K4me1_ab8895_validation_Hardison.pdf
+antibody_vendorId	ab8895
+antibody_vendorName	abcam
+cell	K562
+cell_color	46,0,184
+cell_description	leukemia, "The continuous cell line K-562 was established by Lozzio and Lozzio from the pleural effusion of a 53-year-old female with chronic myelogenous leukemia in terminal blast crises." - ATCC
+cell_karyotype	cancer
+cell_lineage	mesoderm
+cell_orderUrl	http://www.atcc.org/ATCCAdvancedCatalogSearch/ProductDetails/tabid/452/Default.aspx?ATCCNum=CCL-243&Template=cellBiology
+cell_organism	human
+cell_protocol	ENCODE:K562_protocol.pdf
+cell_sex	F
+cell_tag	K562
+cell_termId	BTO:0000664
+cell_termUrl	http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=BTO&termId=BTO%3A0000664
+cell_tier	1
+cell_tissue	blood
+cell_type	Cell Line
+cell_vendorId	CCL-243
+cell_vendorName	ATCC
+composite	wgEncodeSydhHistone
+control	UCDavis
+control_description	Input library was prepared at UC Davis.
+control_label	UCDavis Input Control
+control_tag	UCD
+control_type	control
+controlId	wgEncodeEH000672
+dataType	ChipSeq
+dataType_dataGroup	TFBS & Histones
+dataType_description	Chromatin IP Sequencing
+dataType_label	ChIP-seq
+dataType_tag	CHIPSEQ
+dataType_type	dataType
+dataVersion	ENCODE June 2010 Freeze
+dateSubmitted	5/20/2010
+dateUnrestricted	2/20/2011
+dccAccession	wgEncodeEH000911
+geoSampleAccession	GSM788085
+grant	Snyder
+grant_description	Snyder
+grant_grantInst	Stanford
+grant_projectName	SYDH
+grant_tag	SNYDER
+grant_type	grant
+ID	1011
+lab	USC
+lab_description	Farnham - University of Southern California
+lab_grantPi	Snyder
+lab_label	Farnham - USC
+lab_labInst	USC
+lab_labPi	Farnham
+lab_labPiFull	Peggy Farnham
+lab_organism	human
+lab_tag	USC
+lab_type	lab
+labVersion	PeakSeq1.0
+md5sum	8664dfcb4d4d7fc30f05b0b71d7bed49
+project	wgEncode
+setType	exp
+size	2.0M
+subId	1205
+tableName	wgEncodeSydhHistoneK562H3k4me1UcdPk
+treatment	None
+treatment_description	No special treatment or protocol applies
+treatment_label	No treatment or prot
+treatment_tag	NONE
+treatment_type	control
+type	narrowPeak
+url	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeSydhHistone/wgEncodeSydhHistoneK562H3k4me1UcdPk.narrowPeak.gz
+view	Peaks
+view_description	Regions of enriched signal in experiment
+view_label	Peaks
+view_tag	PKS
+view_type	view

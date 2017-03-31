@@ -1,0 +1,67 @@
+age_at_diagnosis	85
+ajcc_metastasis_pathologic_pm	M0
+ajcc_nodes_pathologic_pn	N0
+ajcc_pathologic_tumor_stage	Stage IIB
+ajcc_staging_edition	7th
+ajcc_tumor_pathologic_pt	T3
+anatomic_neoplasm_subdivision	Right
+axillary_staging_method	Axillary lymph node dissection alone
+bcr_patient_uuid	8E54232D-D8BB-4612-8B0E-4FEB076A60F9
+bcr_sample_uuid	9BC1887E-B3ED-4732-B8BC-EF4F4EA59258
+birth_days_to	-31404
+center	genome.wustl.edu
+data_type	DNASeq
+days_to_collection	2709
+days_to_initial_pathologic_diagnosis	0
+er_ihc_score	2+
+er_positivity_scale_used	3 Point Scale
+er_status_by_ihc	Positive
+er_status_ihc_Percent_Positive	40-49%
+ethnicity	NOT HISPANIC OR LATINO
+form_completion_date	2012-5-21
+gender	FEMALE
+her2_cent17_ratio	1.1
+her2_fish_status	Negative
+her2_status_by_ihc	Negative
+histological_type	Infiltrating Lobular Carcinoma
+history_neoadjuvant_treatment	No
+history_other_malignancy	No
+icd_10	C50.9
+icd_o_3_histology	8520/3
+icd_o_3_site	C50.9
+id	TCGA-A2-A0CO-01A-13D-A228-09
+informed_consent_verified	YES
+initial_pathologic_dx_year	2002
+initial_weight	260
+last_contact_days_to	3409
+lymph_nodes_examined	11
+lymph_nodes_examined_count	YES
+lymph_nodes_examined_he_count	0
+lymph_nodes_examined_ihc_count	0
+margin_status	Positive
+menopause_status	Post (prior bilateral ovariectomy OR >12 mo since LMP with no prior hysterectomy)
+metastatic_tumor_indicator	NO
+method_initial_path_dx	Core needle biopsy
+micromet_detection_by_ihc	NO
+ncbi_build	37
+oct_embedded	true
+pathology_report_uuid	8C440009-E05E-4046-96AB-BAB211CB7D02
+patient_id	A0CO
+pr_positivity_ihc_intensity_score	2+
+pr_positivity_scale_used	3 Point Scale
+pr_status_by_ihc	Positive
+pr_status_ihc_percent_positive	20-29%
+prospective_collection	NO
+race	WHITE
+retrospective_collection	YES
+sample_type	Primary Tumor
+sample_type_id	01
+sequence_source	WXS
+sequencer	Illumina GAIIx
+surgical_procedure_first	Modified Radical Mastectomy
+tissue_source_site	A2
+tumor_sample_uuid	36053173-6839-43ec-8157-75d729085e6b
+tumor_status	TUMOR FREE
+tumor_tissue_site	Breast
+vial_number	A
+vital_status	Alive

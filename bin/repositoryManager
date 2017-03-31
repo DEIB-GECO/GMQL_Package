@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+# GMQL repository manager 
+#
+# Author: Abdulrahman Kaitoua
+#
+# email: abdulrahman.kaitoua@polimi.it
+#
+
+cd "$(dirname "$0")"
+
+JAVA_CMD="java -cp ../lib/uber-GMQL-Repository-1.0.jar  it.polimi.genomics.repository.RepositoryManager $@"
+s=$@
+$JAVA_CMD

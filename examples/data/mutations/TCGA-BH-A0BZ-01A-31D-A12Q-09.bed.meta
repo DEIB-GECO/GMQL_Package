@@ -1,0 +1,57 @@
+age_at_diagnosis	59
+ajcc_metastasis_pathologic_pm	M0
+ajcc_nodes_pathologic_pn	N1a
+ajcc_pathologic_tumor_stage	Stage IIIA
+ajcc_staging_edition	6th
+ajcc_tumor_pathologic_pt	T3
+anatomic_neoplasm_subdivision	Left
+bcr_patient_uuid	4a032bad-e726-48f2-8f39-e3acc109cc91
+bcr_sample_uuid	55906ee0-a385-4ec9-8515-90ab613eca35
+birth_days_to	-21856
+center	genome.wustl.edu
+data_type	DNASeq
+days_to_collection	1084
+days_to_initial_pathologic_diagnosis	0
+er_status_by_ihc	Positive
+ethnicity	NOT HISPANIC OR LATINO
+first_surgical_procedure_other	modified radical mastectomy with axillary dissection
+form_completion_date	2011-8-10
+gender	FEMALE
+her2_status_by_ihc	Negative
+histological_type	Infiltrating Ductal Carcinoma
+history_neoadjuvant_treatment	No
+history_other_malignancy	No
+icd_10	C50.9
+icd_o_3_histology	8500/3
+icd_o_3_site	C50.9
+id	TCGA-BH-A0BZ-01A-31D-A12Q-09
+informed_consent_verified	YES
+initial_pathologic_dx_year	2007
+initial_weight	830
+last_contact_days_to	1492
+lymph_nodes_examined	23
+lymph_nodes_examined_count	YES
+lymph_nodes_examined_he_count	1
+margin_status	Negative
+menopause_status	Post (prior bilateral ovariectomy OR >12 mo since LMP with no prior hysterectomy)
+metastatic_tumor_indicator	NO
+method_initial_path_dx	Fine needle aspiration biopsy
+ncbi_build	37
+oct_embedded	true
+pathology_report_uuid	1B56E5A6-35B8-4C60-8BC5-68716C946799
+patient_id	A0BZ
+pr_status_by_ihc	Positive
+prospective_collection	NO
+race	WHITE
+retrospective_collection	YES
+sample_type	Primary Tumor
+sample_type_id	01
+sequence_source	WXS
+sequencer	Illumina GAIIx
+surgical_procedure_first	Other
+tissue_source_site	BH
+tumor_sample_uuid	1f07765a-3f2b-4b6f-88ef-0d7aab17a758
+tumor_status	TUMOR FREE
+tumor_tissue_site	Breast
+vial_number	A
+vital_status	Alive

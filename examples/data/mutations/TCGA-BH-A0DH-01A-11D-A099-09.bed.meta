@@ -1,0 +1,62 @@
+age_at_diagnosis	63
+ajcc_metastasis_pathologic_pm	M0
+ajcc_nodes_pathologic_pn	N1a
+ajcc_pathologic_tumor_stage	Stage IIB
+ajcc_tumor_pathologic_pt	T2
+anatomic_neoplasm_subdivision	Left Upper Outer Quadrant|Left
+axillary_staging_method	Axillary lymph node dissection alone
+bcr_patient_uuid	491b6364-1223-474f-816f-e248c8c841e2
+bcr_sample_uuid	700477dc-5eb4-4efb-a301-12172a7469f7
+birth_days_to	-23366
+center	genome.wustl.edu
+data_type	DNASeq
+days_to_collection	968
+days_to_initial_pathologic_diagnosis	0
+er_ihc_score	3+
+er_status_by_ihc	Positive
+er_status_ihc_Percent_Positive	90-99%
+form_completion_date	2010-11-8
+gender	FEMALE
+her2_ihc_percent_positive	<10%
+her2_ihc_score	0
+her2_status_by_ihc	Negative
+histological_type	Infiltrating Ductal Carcinoma
+history_neoadjuvant_treatment	No
+history_other_malignancy	No
+icd_10	C50.9
+icd_o_3_histology	8500/3
+icd_o_3_site	C50.9
+id	TCGA-BH-A0DH-01A-11D-A099-09
+informed_consent_verified	YES
+initial_pathologic_dx_year	2007
+initial_weight	260
+last_contact_days_to	1156
+lymph_nodes_examined	28
+lymph_nodes_examined_he_count	3
+margin_status	Positive
+margin_status_reexcision	Negative
+menopause_status	Post (prior bilateral ovariectomy OR >12 mo since LMP with no prior hysterectomy)
+method_initial_path_dx	Core needle biopsy
+micromet_detection_by_ihc	NO
+ncbi_build	37
+oct_embedded	true
+pathology_report_uuid	79B22278-2BA1-4904-BCA6-2B1368C77475
+patient_id	A0DH
+pr_positivity_ihc_intensity_score	3+
+pr_status_by_ihc	Positive
+pr_status_ihc_percent_positive	40-49%
+prospective_collection	NO
+race	WHITE
+retrospective_collection	YES
+sample_type	Primary Tumor
+sample_type_id	01
+sequence_source	WXS
+sequencer	Illumina GAIIx
+surgery_for_positive_margins	Mastectomy NOS
+surgical_procedure_first	Lumpectomy
+tissue_source_site	BH
+tumor_sample_uuid	7aa19e23-48fe-4ce9-89f8-dd7513e4cb62
+tumor_status	TUMOR FREE
+tumor_tissue_site	Breast
+vial_number	A
+vital_status	Alive

@@ -1,0 +1,52 @@
+composite	wgEncodeAwgDnaseUniPk
+cell	8988T
+cell_lineage	endoderm
+cell_vendorId	ACC 162
+cell_protocol	Crawford:8988T_Crawford_protocol.pdf
+cell_description	pancreas adenocarcinoma (PA-TU-8988T), "established in 1985 from the liver metastasis of a primary pancreatic adenocarcinoma from a 64-year-old woman" - DSMZ
+cell_organism	human
+cell_orderUrl	http://www.dsmz.de/human_and_animal_cell_lines/info.php?dsmz_nr=162&term=162&highlight=
+cell_tissue	liver
+cell_sex	F
+cell_tag	8988T
+cell_termUrl	http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=BTO&termId=BTO%3A0001521
+cell_tier	3
+cell_karyotype	cancer
+cell_type	Cell Line
+cell_vendorName	DSMZ
+cell_termId	BTO:0001521 (non-specific)
+dataVersion	ENCODE Jan 2011 Freeze
+url	http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeAwgDnaseUniform/wgEncodeAwgDnaseDuke8988tUniPk.narrowPeak.gz
+ID	1
+md5sum	80fadeb7a14a72add38203910d937f50
+tableName	wgEncodeAwgDnaseDuke8988tUniPk
+lab	Duke
+lab_description	Crawford - Duke University
+lab_labPi	Crawford
+lab_grantPi	Crawford
+lab_organism	human
+lab_labInst	Duke University
+lab_label	Crawford - Duke University
+lab_tag	DUKE
+lab_labPiFull	Greg Crawford
+lab_type	lab
+project	wgEncode
+dataType	DnaseSeq
+dataType_description	DNaseI HS Sequencing
+dataType_label	DNase-seq
+dataType_dataGroup	Open Chromatin
+dataType_tag	DNASESEQ
+dataType_type	dataType
+dccAccession	wgEncodeEH001103
+treatment	None
+treatment_tag	NONE
+treatment_type	control
+treatment_description	No special treatment or protocol applies
+treatment_label	No treatment or prot
+size	1.7M
+type	narrowPeak
+view	Peaks
+view_tag	PKS
+view_type	view
+view_description	Regions of enriched signal in experiment
+view_label	Peaks

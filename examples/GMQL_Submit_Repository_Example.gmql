@@ -1,0 +1,4 @@
+A = SELECT() ann;
+B = SELECT() exp;
+S = MAP() A B;
+MATERIALIZE S INTO res;

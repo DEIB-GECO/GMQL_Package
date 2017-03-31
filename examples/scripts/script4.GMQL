@@ -1,0 +1,19 @@
+# 
+# Example 4: Find Somatic Mutations in Exons
+# ------------------------------------------
+# "Consider mutation data samples of human breast cancer cases. For each sample, quantify the mutations in each exon 
+# and select the exons with at least one mutation. Return the list of samples ordered by the number of such exons".
+#
+
+
+Mut = SELECT(data_type == 'DNASeq' AND tumor_tissue_site == 'Breast') HG19_MUT;
+Exon = SELECT(ann_type == 'exons' AND provider == 'RefSeq') HG19_ANN;
+
+Exon1 = MAP() Exon Mut;
+
+Exon2 = SELECT(region: count_Exon_Mut >= 1) Exon1;
+
+Exon3 = EXTEND(exon_count AS COUNT()) Exon2;
+Exon_res = ORDER(exon_count DESC) Exon3;
+
+MATERIALIZE Exon_res INTO Exon_res;

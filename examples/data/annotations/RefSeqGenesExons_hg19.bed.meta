@@ -1,0 +1,4 @@
+ann_type	exons
+provider	RefSeq
+name	RefSeqGeneExons
+assembly	hg19
