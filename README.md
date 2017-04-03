@@ -2,12 +2,14 @@ Table of Contents
 ==============
 [TOC]
 
+***
 GMQL QuickStart
 ================
 GMQL is a **GenoMetric Query Language**, that runs over GDMS, **Genomic Data Management System**. This manual will help you to install GDMS to get started scripting GMQL. 
 
 More information about [GDMS architecture](https://github.com/DEIB-GECO/GMQL/blob/master/docs/gmql_architecture.md) and and GDMS packages go to [GMQL](https://github.com/DEIB-GECO/GMQL/).
 
+***
 ### GDMS Installation
 
 #### Requirements 
@@ -25,6 +27,8 @@ More information about [GDMS architecture](https://github.com/DEIB-GECO/GMQL/blo
 - Git installed: 
 	- You can use this command in terminal (Ubuntu/Debian):
 	- Or see [Git installation website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+	
+	
 ####Installation
 The [engine configurations](https://github.com/DEIB-GECO/GMQL/blob/master/docs/Configutations.md) should be set first for the shell installation.
 
@@ -43,6 +47,7 @@ The [engine configurations](https://github.com/DEIB-GECO/GMQL/blob/master/docs/C
 	 
 	 The installer will pull the latest code of GMQL from the [master branch of GMQL](https://github.com/DEIB-GECO/GMQL) and compile the code using maven, finally, copy the Jars to *lib/ directory*.
 
+***
 Quick Start Examples
 ==================
 
@@ -76,6 +81,7 @@ You will find in the package **bin/ folder** the following shell executables:
 
 	The datasets mentioned in the code (ann, and exp) should be added to the repository first using repositoryManager command. You can find a sample data in examples/data/ann and examples/data/exp	folders.
 
+***
 One click Start
 ============
 We provided a shell code that adds four datasets to GDMS repository and another shell script to run four scripts on those daatasets. 
