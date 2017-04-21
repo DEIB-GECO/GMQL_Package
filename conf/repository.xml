@@ -1,8 +1,8 @@
 <?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
 <gmqlProperties xmlns = "http://genomic.elet.polimi.it/entities">
-    <property name = "GMQL_LOCAL_HOME">/home/abdo/disk1/repo/</property>
-    <property name = "GMQL_DFS_HOME">/user/repo/</property>
-    <property name = "GMQL_REPO_TYPE">HDFS</property>
+        <property name = "GMQL_LOCAL_HOME">/home/$USER/repo/</property>
+        <property name = "GMQL_DFS_HOME">/user/repo/</property>
+        <property name = "GMQL_REPO_TYPE">HDFS</property>
         <property name = "HADOOP_HOME">/usr/local/hadoop-2.7.3/</property>
         <property name = "HADOOP_CONF_DIR">/usr/local/hadoop-2.7.3/etc/hadoop/</property>
         <property name = "GMQL_CONF_DIR">../conf/</property>
