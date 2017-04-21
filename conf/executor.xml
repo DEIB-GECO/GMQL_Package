@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
 <gmqlProperties xmlns = "http://genomic.elet.polimi.it/impl">
-    <property name = "SPARK_HOME">/home/abdo/disk1/spark/</property>
+    <property name = "SPARK_HOME">/home/$USER/spark/</property>
     <property name = "CLI_JAR_NAME">GMQL-Cli-2.0-jar-with-dependencies.jar</property>
     <property name = "CLI_CLASS">it.polimi.genomics.cli.GMQLExecuteCommand</property>
     <property name = "LAUNCHER_MODE">LOCAL</property>
