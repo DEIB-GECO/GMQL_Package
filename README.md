@@ -1,8 +1,3 @@
-Table of Contents
-==============
-[TOC]
-
-
 GMQL QuickStart
 ================
 GMQL is a **GenoMetric Query Language**, that runs over GDMS, **Genomic Data Management System**. This manual will help you to install GDMS to get started scripting GMQL. 
