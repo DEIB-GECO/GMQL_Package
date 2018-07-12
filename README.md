@@ -59,18 +59,18 @@ Quick Start Examples
 
 You will find in the package **bin/ folder** the following shell executables: 
 
-- [repositoryManager](https://github.com/DEIB-GECO/GMQL_Package/blob/master/bin/repositoryManager)
-	Run GMQL repository to find the user data sets installed. Initially the user has no datasets in his repository and the user is not even registered. The first command to run is:
+- [repositoryManager](https://github.com/DEIB-GECO/GMQL_Package/blob/master/bin/repositoryManager):
+	GMQL repository manages GMQL data sets for multi-user environment. Initially, users have no datasets in their repository. New users should be first registered. Therefore, the first command to run to register a user and start using the repository is:
     ```
     bin/repositoryManager RegisterUser
     ```
 	
 
 	For information about the repository manager see [repository shell APIs](https://github.com/DEIB-GECO/GMQL/blob/master/docs/SHELL_API.md).
-- [GMQL-Submit](https://github.com/DEIB-GECO/GMQL_Package/blob/master/bin/GMQL-Submit)
-	This executable is used to submit GMQL script to GDMS engine **without** the use of GDMS repository. For example code see [GMQL examples](https://github.com/DEIB-GECO/GMQL/blob/master/docs/example.md). The selection in this case is from a dataset directories and the materialization is to output directories. This is useful for trying GDMS without installing repository but not suggested for long use of GDMS, where a huge number of datasets are generated and the user starts to loose track of the generated datasets.
+- [GMQL-Submit](https://github.com/DEIB-GECO/GMQL_Package/blob/master/bin/GMQL-Submit):
+	This executable is used to submit GMQL script to GDMS engine **without** constructing GDMS repository. For example code see [GMQL examples](https://github.com/DEIB-GECO/GMQL/blob/master/docs/example.md). The selection in this case is from a dataset directories and the materialization is to output directories. This is useful for trying GDMS without installing repository management but not recommended for long use of GDMS for multi-users, where a big number of datasets are generated which leads users to loosing track of the generated datasets.
 	
-	Submit Example: 
+	Local execution Example: 
     ```
     bin/GMQL-Submit -scriptpath /home/$USER/GMQL_Package/examples/GMQL_Submit_Example_LOCAL.gmql 
      ```
