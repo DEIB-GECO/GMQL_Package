@@ -24,6 +24,11 @@ More information about [GDMS architecture](https://github.com/DEIB-GECO/GMQL/blo
 	- Or go to [maven installation web page](https://maven.apache.org/install.html)
 - Git installed: 
 	- You can use this command in terminal (Ubuntu/Debian):
+		
+        ```
+        sudo apt-get install git-core
+        ```
+		
 	- Or see [Git installation website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 	
 	
