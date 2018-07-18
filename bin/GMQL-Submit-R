@@ -9,6 +9,7 @@
 
 cd "$(dirname "$0")"
 
-JAVA_CMD="spark-submit --class it.polimi.genomics.manager.CLI --master local[1] --jars ../lib/slf4j-log4j12-1.7.10.jar ../lib/GMQL-SManager-2.0-jar-with-dependencies.jar $@"
+parentdir="$(dirname $PWD)"
+JAVA_CMD="spark-submit --class it.polimi.genomics.manager.CLI --master local[1] $parentdir/lib/GMQL-SManager-*-jar-with-dependencies.jar $@"
 
 $JAVA_CMD
