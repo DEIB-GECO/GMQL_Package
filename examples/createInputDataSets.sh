@@ -8,6 +8,7 @@ echo $SCRIPT_DIR
 
 cd "$(dirname "$0")"
 registeruser="../bin/repositoryManager registeruser"
+registerPublicuser="../bin/repositoryManager registeruser public"
 annotationDataset="../bin/repositoryManager createds HG19_ANN BED $SCRIPT_DIR/data/annotations/"
 narrowPeakDataSet="../bin/repositoryManager createds HG19_PEAK NARROWPEAK $SCRIPT_DIR/data/peaks/"
 rnaDataSet="../bin/repositoryManager createds HG19_RNA $SCRIPT_DIR/data/RNA/test.schema $SCRIPT_DIR/data/RNA/"
@@ -21,6 +22,13 @@ echo "Executing Command: $registeruser"
 echo "-------------------------------------------"
 echo "-------------------------------------------"
 $registeruser
+echo "-------------------------------------------"
+echo "-------------------------------------------"
+echo "Register Username: $USER"
+echo "Executing Command: $registerPublicuser"
+echo "-------------------------------------------"
+echo "-------------------------------------------"
+$registerPublicuser
 echo "-------------------------------------------"
 echo "-------------------------------------------"
 echo "Executing Command: $annotationDataset"
