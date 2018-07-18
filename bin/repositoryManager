@@ -9,6 +9,6 @@
 
 cd "$(dirname "$0")"
 
-JAVA_CMD="java -cp ../lib/uber-GMQL-Repository-1.0.jar  it.polimi.genomics.repository.RepositoryManager $@"
+JAVA_CMD="java -cp ../lib/GMQL-Repository-*-jar-with-dependencies.jar  it.polimi.genomics.repository.RepositoryManager $@"
 s=$@
 $JAVA_CMD
