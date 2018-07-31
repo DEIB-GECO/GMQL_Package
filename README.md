@@ -10,7 +10,7 @@ For more information about [GDMS architecture](https://github.com/DEIB-GECO/GMQL
 
 - Linux (Ubuntu/Debian is recommended)
 - JDK 8 or higher
-- Apache Hadoop Installation 2.7.x or higher (only in Cluster mode, check the [configurations](https://github.com/DEIB-GECO/GMQL/blob/master/docs/Configutations.md)).
+- Apache Hadoop Installation 2.7.x or higher (only in Cluster mode, check the [configurations](https://github.com/DEIB-GECO/GMQL/wiki/Configurations#launcher-configurations)).
 	- Guide for Apache Hadoop installation can be found in [Hadoop installation page](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html).
 - Apache Spark Installation 2.2.0 or higher.
       	- Guide for Apache Spark installation can be found in [Spark documentation page](https://spark.apache.org/docs/2.2.0/).
