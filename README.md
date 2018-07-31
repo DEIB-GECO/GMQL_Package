@@ -93,14 +93,14 @@ You will find in the package **bin/ folder** the following shell executables:
 
 One click Start
 ============
-We provided a shell code that adds four datasets to GDMS repository and another shell script to run four scripts on those daatasets. 
+We provides a shell code that adds four datasets to GDMS repository and another shell script to run four scripts on those daatasets. 
 
-This code will add four datasets to the repository, run the code form GDMS installation folder:
+This code will add four datasets to the repository; run the code form GDMS installation folder:
 ```
 examples/createInputDataSets.sh
 ```
 
-This code will run four scripts of GMQL, the result will be found in the repository,  run the code form GDMS installation folder:
+This code will run four scripts of GMQL, the result will be found in the repository; run the code form GDMS installation folder:
 ```
 examples/runScriptExamples.sh
 ```
