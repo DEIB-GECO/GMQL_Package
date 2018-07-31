@@ -33,9 +33,9 @@ For more information about [GDMS architecture](https://github.com/DEIB-GECO/GMQL
 	
 	
 #### Installation
-The [engine configurations](https://github.com/DEIB-GECO/GMQL/blob/master/docs/Configutations.md) should be set first for the shell installation.
+The [engine configurations](https://github.com/DEIB-GECO/GMQL/wiki/Configurations#launcher-configurations) should be set first for the shell installation.
 
- - In case of Cluster installation (see [engine configurations](https://github.com/DEIB-GECO/GMQL/blob/master/docs/Configutations.md)), make sure that your Hadoop installation is configured and running.
+ - In case of Cluster installation (see [engine configurations](https://github.com/DEIB-GECO/GMQL/wiki/Configurations#launcher-configurations)), make sure that your Hadoop installation is configured and running.
 
  - Download [GMQL Package](https://github.com/DEIB-GECO/GMQL_Package), 
 	- using the following terminal command:
