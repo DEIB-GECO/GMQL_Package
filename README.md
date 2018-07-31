@@ -2,7 +2,7 @@ GMQL Quick Start
 ================
 GMQL is a **GenoMetric Query Language**, that runs over GDMS, **Genomic Data Management System**. This manual will help you to install GDMS to get started scripting GMQL. 
 
-More information about [GDMS architecture](https://github.com/DEIB-GECO/GMQL/blob/master/docs/gmql_architecture.md) and and GDMS packages go to [GMQL](https://github.com/DEIB-GECO/GMQL/).
+For more information about [GDMS architecture](https://github.com/DEIB-GECO/GMQL/blob/master/docs/gmql_architecture.md) and GDMS packages go to [GMQL](https://github.com/DEIB-GECO/GMQL/).
 
 ### GDMS Installation
 
